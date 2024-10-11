@@ -1,26 +1,40 @@
 html {
-    font-size: 20px;
     background-color: #8ACE00;
 }
 
-body, html {
+html,body {
     font-family: Arial;
 }
 
 .imsojulia {
     text-align: center;
-    justify-content: center;
+    font-size: 50px;
 }
 
 .keys {
-    display: flex;
-    flex: 1;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
+    display: flex; /* to make it horizontal */
+    align-items: center; /*to center the div. It needs min-heigh to make it center*/
+    min-height: 70vh; /*to make the bottom height down*/
+    justify-content: center; /* to make the div center */
+}
+
+.key {
+    text-align: center;
 }
 
 kbd {
-    display: block;
+    display: block; /*to make evey kbd go down */
     font-size: 4rem;
+    border: .3rem solid;
+    border-radius: 50%;
+    height: 75px; /* To make the height bottom down */
+    width: 75px; /* To make the width both side move */
+    margin: 1rem; /*Outside the size*/
+    padding: 1rem; /*Inside the size*/
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
 }
