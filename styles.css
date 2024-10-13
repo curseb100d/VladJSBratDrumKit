@@ -31,6 +31,13 @@ kbd {
     width: 75px; /* To make the width both side move */
     margin: 1rem; /*Outside the size*/
     padding: 1rem; /*Inside the size*/
+    transition: all .07s;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
 }
 
 .sound {
