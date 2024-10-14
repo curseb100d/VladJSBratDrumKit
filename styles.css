@@ -11,14 +11,14 @@ html,body {
     font-size: 50px;
 }
 
-.keys {
+.bratkeys {
     display: flex; /* to make it horizontal */
     align-items: center; /*to center the div. It needs min-heigh to make it center*/
     min-height: 70vh; /*to make the bottom height down*/
     justify-content: center; /* to make the div center */
 }
 
-.key {
+.bratkey {
     text-align: center;
 }
 
@@ -34,13 +34,13 @@ kbd {
     transition: all .07s;
 }
 
-.playing {
+.bratplaying {
     transform: scale(1.1);
     border-color: #ffc600;
     box-shadow: 0 0 10px #ffc600;
 }
 
-.sound {
+.bratsound {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
