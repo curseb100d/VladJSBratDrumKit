@@ -9,6 +9,7 @@ html,body {
 .imsojulia {
     text-align: center;
     font-size: 50px;
+    text-shadow: 0 0 .5rem black;
 }
 
 .bratkeys {
@@ -20,24 +21,25 @@ html,body {
 
 .bratkey {
     text-align: center;
+    border: .3rem solid;
+    border-radius: 50%;
+    height: 75px; /* To make the height bottom down */
+    width: 75px; /* To make the width both side move */
+    margin: 2rem; /*Outside the size*/
+    padding: 1rem; /*Inside the size*/
+    transition: all .07s;
 }
 
 kbd {
     display: block; /*to make evey kbd go down */
     font-size: 4rem;
-    border: .3rem solid;
-    border-radius: 50%;
-    height: 75px; /* To make the height bottom down */
-    width: 75px; /* To make the width both side move */
-    margin: 1rem; /*Outside the size*/
-    padding: 1rem; /*Inside the size*/
-    transition: all .07s;
+    margin-bottom: 2rem;
 }
 
 .bratplaying {
     transform: scale(1.1);
-    border-color: #ffc600;
-    box-shadow: 0 0 10px #ffc600;
+    border-color: #64e664e7;
+    box-shadow: 0 0 10px #87ec9d;
 }
 
 .bratsound {
